@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Mulish&display=swap');
+/* font-family: 'Mooli', sans-serif; */
+/* font-family: 'Mulish', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62,5%;
+}
+
+body {
+  font-family: 'Mooli', sans-serif;
+}
+
+header {
+  background-color: white;
+  padding: 1rem;
+}
+
+.colored-text {
+  display: inline-block;
+  font-size: 24px;
+}
+  .c1 { color: red; }
+  .c2 { color: orange; }
+  .c3 { color: #bbbb3c; }
+  .c4 { color: green; }
+  .c5 { color: blue; }
+  .c6 { color: indigo; }
+  .c7 { color: violet; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.refresh {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20rem;
+  gap: 1rem;
+}
+
+.btn {
+  border-radius: 5rem;
+  padding: 0.5rem;
+  border-color: white;
+}
+
